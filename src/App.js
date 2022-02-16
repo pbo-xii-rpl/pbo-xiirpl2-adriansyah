@@ -1,8 +1,18 @@
 import "./App.css";
-import Navbar from "./components/Navbar";
+import Herosection from "./components/Herosection";
 
 export default function App() {
   return (
-    <Navbar/>
+    <>
+
+     <Herosection/>
+    <section className="" id="Profile">
+    <h1 className="text-2xl text-center">Profile</h1>
+    <p className="">
+      Mengenal sya secara singkat
+    </p>
+    </section>
+
+    </>
   );
 }
